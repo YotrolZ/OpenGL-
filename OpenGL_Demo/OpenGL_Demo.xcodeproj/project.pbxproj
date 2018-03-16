@@ -18,6 +18,11 @@
 		AE79F849205BCA4500DE984A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F848205BCA4500DE984A /* GLUT.framework */; };
 		AE79F85B205BCB8600DE984A /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F85A205BCB8600DE984A /* libGLTools.a */; };
 		AE79F85D205BCBA700DE984A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79F85C205BCBA700DE984A /* main.cpp */; };
+		AE79F86B205BCD7500DE984A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE79F86A205BCD7500DE984A /* Assets.xcassets */; };
+		AE79F86E205BCD7500DE984A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE79F86C205BCD7500DE984A /* Main.storyboard */; };
+		AE79F876205BCD8E00DE984A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F846205BCA3F00DE984A /* OpenGL.framework */; };
+		AE79F877205BCD9600DE984A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F848205BCA4500DE984A /* GLUT.framework */; };
+		AE79F879205BCDAC00DE984A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE79F878205BCDAC00DE984A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,12 @@
 		AE79F859205BCB7000DE984A /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
 		AE79F85A205BCB8600DE984A /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
 		AE79F85C205BCBA700DE984A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AE79F862205BCD7500DE984A /* OpenGL_绘制方式1_直接模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL_绘制方式1_直接模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE79F86A205BCD7500DE984A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE79F86D205BCD7500DE984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE79F86F205BCD7500DE984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE79F872205BCD7600DE984A /* OpenGL_____1_____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL_____1_____.entitlements"; sourceTree = "<group>"; };
+		AE79F878205BCDAC00DE984A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE79F85F205BCD7500DE984A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE79F877205BCD9600DE984A /* GLUT.framework in Frameworks */,
+				AE79F876205BCD8E00DE984A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +102,7 @@
 			children = (
 				AE79F818205BC8B600DE984A /* OpenGL_Demo */,
 				AE79F832205BCA2000DE984A /* OpenGL_环境搭建 */,
+				AE79F863205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */,
 				AE79F817205BC8B600DE984A /* Products */,
 				AE79F845205BCA3F00DE984A /* Frameworks */,
 			);
@@ -92,6 +113,7 @@
 			children = (
 				AE79F816205BC8B600DE984A /* OpenGL_Demo.app */,
 				AE79F831205BCA2000DE984A /* OpenGL_环境搭建.app */,
+				AE79F862205BCD7500DE984A /* OpenGL_绘制方式1_直接模式.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +186,18 @@
 			path = GL;
 			sourceTree = "<group>";
 		};
+		AE79F863205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AE79F86A205BCD7500DE984A /* Assets.xcassets */,
+				AE79F86C205BCD7500DE984A /* Main.storyboard */,
+				AE79F86F205BCD7500DE984A /* Info.plist */,
+				AE79F872205BCD7600DE984A /* OpenGL_____1_____.entitlements */,
+				AE79F878205BCDAC00DE984A /* main.cpp */,
+			);
+			path = "OpenGL_绘制方式1_直接模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +235,23 @@
 			productReference = AE79F831205BCA2000DE984A /* OpenGL_环境搭建.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE79F861205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE79F873205BCD7600DE984A /* Build configuration list for PBXNativeTarget "OpenGL_绘制方式1_直接模式" */;
+			buildPhases = (
+				AE79F85E205BCD7500DE984A /* Sources */,
+				AE79F85F205BCD7500DE984A /* Frameworks */,
+				AE79F860205BCD7500DE984A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL_绘制方式1_直接模式";
+			productName = "OpenGL_绘制方式1_直接模式";
+			productReference = AE79F862205BCD7500DE984A /* OpenGL_绘制方式1_直接模式.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,6 +266,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					AE79F830205BCA2000DE984A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AE79F861205BCD7500DE984A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -235,6 +290,7 @@
 			targets = (
 				AE79F815205BC8B600DE984A /* OpenGL_Demo */,
 				AE79F830205BCA2000DE984A /* OpenGL_环境搭建 */,
+				AE79F861205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +311,15 @@
 			files = (
 				AE79F83A205BCA2000DE984A /* Assets.xcassets in Resources */,
 				AE79F83D205BCA2000DE984A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79F860205BCD7500DE984A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE79F86B205BCD7500DE984A /* Assets.xcassets in Resources */,
+				AE79F86E205BCD7500DE984A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +344,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE79F85E205BCD7500DE984A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE79F879205BCDAC00DE984A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -294,6 +367,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE79F83C205BCA2000DE984A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE79F86C205BCD7500DE984A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE79F86D205BCD7500DE984A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -474,6 +555,38 @@
 			};
 			name = Release;
 		};
+		AE79F874205BCD7600DE984A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL_绘制方式1_直接模式/OpenGL_____1_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B95S8USK3K;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL_环境搭建/include\"";
+				INFOPLIST_FILE = "OpenGL_绘制方式1_直接模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.OpenGL-----1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE79F875205BCD7600DE984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL_绘制方式1_直接模式/OpenGL_____1_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B95S8USK3K;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL_环境搭建/include\"";
+				INFOPLIST_FILE = "OpenGL_绘制方式1_直接模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.OpenGL-----1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +613,15 @@
 			buildConfigurations = (
 				AE79F843205BCA2000DE984A /* Debug */,
 				AE79F844205BCA2000DE984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE79F873205BCD7600DE984A /* Build configuration list for PBXNativeTarget "OpenGL_绘制方式1_直接模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79F874205BCD7600DE984A /* Debug */,
+				AE79F875205BCD7600DE984A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
