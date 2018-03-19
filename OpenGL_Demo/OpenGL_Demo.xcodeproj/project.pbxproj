@@ -27,7 +27,12 @@
 		AE79F88A205BCED100DE984A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE79F888205BCED100DE984A /* Main.storyboard */; };
 		AEFCB9A8205BCF08005ABFF2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F846205BCA3F00DE984A /* OpenGL.framework */; };
 		AEFCB9A9205BCF0E005ABFF2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F848205BCA4500DE984A /* GLUT.framework */; };
-		AEFCB9AB205BCF33005ABFF2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB9AA205BCF33005ABFF2 /* main.cpp */; };
+		AEFCB9B9205BD01B005ABFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB9B8205BD01B005ABFF2 /* Assets.xcassets */; };
+		AEFCB9BC205BD01B005ABFF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFCB9BA205BD01B005ABFF2 /* Main.storyboard */; };
+		AEFCB9C4205BD03F005ABFF2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F846205BCA3F00DE984A /* OpenGL.framework */; };
+		AEFCB9C5205BD044005ABFF2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE79F848205BCA4500DE984A /* GLUT.framework */; };
+		AEFCB9C7205BD0C1005ABFF2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB9C6205BD0C1005ABFF2 /* main.cpp */; };
+		AEFCB9C9205BD0F3005ABFF2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB9C8205BD0F3005ABFF2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,7 +80,13 @@
 		AE79F889205BCED100DE984A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE79F88B205BCED100DE984A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE79F88E205BCED100DE984A /* OpenGL_____2_____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL_____2_____.entitlements"; sourceTree = "<group>"; };
-		AEFCB9AA205BCF33005ABFF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEFCB9B0205BD01A005ABFF2 /* OpenGL_绘制方式3_顶点数组.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL_绘制方式3_顶点数组.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFCB9B8205BD01B005ABFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFCB9BB205BD01B005ABFF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEFCB9BD205BD01B005ABFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFCB9C0205BD01B005ABFF2 /* OpenGL_____3_____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL_____3_____.entitlements"; sourceTree = "<group>"; };
+		AEFCB9C6205BD0C1005ABFF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEFCB9C8205BD0F3005ABFF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +125,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEFCB9AD205BD01A005ABFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCB9C5205BD044005ABFF2 /* GLUT.framework in Frameworks */,
+				AEFCB9C4205BD03F005ABFF2 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +144,7 @@
 				AE79F832205BCA2000DE984A /* OpenGL_环境搭建 */,
 				AE79F863205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */,
 				AE79F87F205BCED100DE984A /* OpenGL_绘制方式2_显示列表 */,
+				AEFCB9B1205BD01B005ABFF2 /* OpenGL_绘制方式3_顶点数组 */,
 				AE79F817205BC8B600DE984A /* Products */,
 				AE79F845205BCA3F00DE984A /* Frameworks */,
 			);
@@ -136,6 +157,7 @@
 				AE79F831205BCA2000DE984A /* OpenGL_环境搭建.app */,
 				AE79F862205BCD7500DE984A /* OpenGL_绘制方式1_直接模式.app */,
 				AE79F87E205BCED100DE984A /* OpenGL_绘制方式2_显示列表.app */,
+				AEFCB9B0205BD01A005ABFF2 /* OpenGL_绘制方式3_顶点数组.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,9 +249,21 @@
 				AE79F888205BCED100DE984A /* Main.storyboard */,
 				AE79F88B205BCED100DE984A /* Info.plist */,
 				AE79F88E205BCED100DE984A /* OpenGL_____2_____.entitlements */,
-				AEFCB9AA205BCF33005ABFF2 /* main.cpp */,
+				AEFCB9C6205BD0C1005ABFF2 /* main.cpp */,
 			);
 			path = "OpenGL_绘制方式2_显示列表";
+			sourceTree = "<group>";
+		};
+		AEFCB9B1205BD01B005ABFF2 /* OpenGL_绘制方式3_顶点数组 */ = {
+			isa = PBXGroup;
+			children = (
+				AEFCB9B8205BD01B005ABFF2 /* Assets.xcassets */,
+				AEFCB9BA205BD01B005ABFF2 /* Main.storyboard */,
+				AEFCB9BD205BD01B005ABFF2 /* Info.plist */,
+				AEFCB9C0205BD01B005ABFF2 /* OpenGL_____3_____.entitlements */,
+				AEFCB9C8205BD0F3005ABFF2 /* main.cpp */,
+			);
+			path = "OpenGL_绘制方式3_顶点数组";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +337,23 @@
 			productReference = AE79F87E205BCED100DE984A /* OpenGL_绘制方式2_显示列表.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AEFCB9AF205BD01A005ABFF2 /* OpenGL_绘制方式3_顶点数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFCB9C1205BD01B005ABFF2 /* Build configuration list for PBXNativeTarget "OpenGL_绘制方式3_顶点数组" */;
+			buildPhases = (
+				AEFCB9AC205BD01A005ABFF2 /* Sources */,
+				AEFCB9AD205BD01A005ABFF2 /* Frameworks */,
+				AEFCB9AE205BD01A005ABFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL_绘制方式3_顶点数组";
+			productName = "OpenGL_绘制方式3_顶点数组";
+			productReference = AEFCB9B0205BD01A005ABFF2 /* OpenGL_绘制方式3_顶点数组.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,6 +379,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					AEFCB9AF205BD01A005ABFF2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AE79F811205BC8B600DE984A /* Build configuration list for PBXProject "OpenGL_Demo" */;
@@ -347,6 +402,7 @@
 				AE79F830205BCA2000DE984A /* OpenGL_环境搭建 */,
 				AE79F861205BCD7500DE984A /* OpenGL_绘制方式1_直接模式 */,
 				AE79F87D205BCED100DE984A /* OpenGL_绘制方式2_显示列表 */,
+				AEFCB9AF205BD01A005ABFF2 /* OpenGL_绘制方式3_顶点数组 */,
 			);
 		};
 /* End PBXProject section */
@@ -388,6 +444,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEFCB9AE205BD01A005ABFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCB9B9205BD01B005ABFF2 /* Assets.xcassets in Resources */,
+				AEFCB9BC205BD01B005ABFF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -421,7 +486,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFCB9AB205BCF33005ABFF2 /* main.cpp in Sources */,
+				AEFCB9C7205BD0C1005ABFF2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFCB9AC205BD01A005ABFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCB9C9205BD0F3005ABFF2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +529,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				AE79F889205BCED100DE984A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFCB9BA205BD01B005ABFF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFCB9BB205BD01B005ABFF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -700,6 +781,38 @@
 			};
 			name = Release;
 		};
+		AEFCB9C2205BD01B005ABFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL_绘制方式3_顶点数组/OpenGL_____3_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B95S8USK3K;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL_环境搭建/include\"";
+				INFOPLIST_FILE = "OpenGL_绘制方式3_顶点数组/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.OpenGL-----3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEFCB9C3205BD01B005ABFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL_绘制方式3_顶点数组/OpenGL_____3_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B95S8USK3K;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL_环境搭建/include\"";
+				INFOPLIST_FILE = "OpenGL_绘制方式3_顶点数组/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yotrolz.OpenGL-----3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -744,6 +857,15 @@
 			buildConfigurations = (
 				AE79F890205BCED100DE984A /* Debug */,
 				AE79F891205BCED100DE984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFCB9C1205BD01B005ABFF2 /* Build configuration list for PBXNativeTarget "OpenGL_绘制方式3_顶点数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFCB9C2205BD01B005ABFF2 /* Debug */,
+				AEFCB9C3205BD01B005ABFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
