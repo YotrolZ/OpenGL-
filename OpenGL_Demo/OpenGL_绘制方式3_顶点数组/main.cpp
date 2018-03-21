@@ -67,6 +67,10 @@ void draw_2() {
      C = Color:颜色
      N = Normal:法线
      V = Vertex:顶点
+     
+     3 = 元素的个数
+     
+     F = 数据的格式： float
      */
     glInterleavedArrays(GL_C3F_V3F, 0, datas);
     
