@@ -7,8 +7,7 @@
 //
 
 #include <stdio.h>
-#include <OpenGL/gl3.h>
-//#include "GLTools.h"
+#include "GLTools.h"
 #include <GLUT/GLUT.h>
 
 void draw_1() {
